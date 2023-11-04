@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@400;700&family=Ubuntu&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.fontroboto , body{
+  font-family: 'Roboto', sans-serif;
+}
+.fontubuntu{
+  font-family: 'Ubuntu', sans-serif;
+}
+.fontplay{
+  font-family: 'Playfair Display', serif;
+}
+body{
+  @apply bg-gray-500/10
+}
+.rfui-loader {
+  display: none;
+}
